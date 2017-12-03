@@ -61,7 +61,7 @@ ul a:hover {
     color: rgba(255, 255, 255, 1)
 }
 
-@media all and (min-width: 670px) {
+@media all and (min-width: 700px) {
 
     .logo {
         position: absolute;
@@ -84,7 +84,6 @@ ul a:hover {
 @media all and (min-width: 900px) {
     .logo {
         width: 200px;
-        margin-left: 5%;
     }
 }
 
@@ -100,4 +99,39 @@ ul a:hover {
     .logo {
         width: 175px;
     }
+}
+
+/* HOME BODY */
+.home {
+    background-image: url(../img/homebackgroundopac.jpg);
+    background-color: #174040;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+	height: 100%;
+}
+
+.homemain {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+	height: 85%;
+}
+
+.homemain h1 {
+    align-self: center;
+    text-align: center;
+    margin: auto;
+    color: white;
+    text-transform: uppercase;
+    font-size: 175px;
+    -webkit-text-stroke: 13px #3a1110;
+}
+
+@media all and (min-width: 900px) {
+    .homemain h1 {
+		font-size: 100px;
+	    -webkit-text-stroke: 7px #3a1110;
+	}
 }
