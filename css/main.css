@@ -1,11 +1,16 @@
 html {
-	box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .visuallyhidden {
@@ -19,4 +24,80 @@ html {
     position: absolute;
     width: 1px;
     white-space: nowrap; /* 1 */
+}
+
+/* MENU */
+header,
+header img {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25), 0 7px 22px 0 rgba(0, 0, 0, 0.25);
+}
+
+header {
+    background-color: #3a1110;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.logo {
+    width: 40%;
+    display: block;
+    margin: auto;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    font-size: 50px;
+    padding: 2%;
+}
+
+ul a {
+    color: rgba(255, 255, 255, 0.65)
+}
+
+ul a:hover {
+    color: rgba(255, 255, 255, 1)
+}
+
+@media all and (min-width: 670px) {
+
+    .logo {
+        position: absolute;
+        z-index: 1000;
+        display: inline-block;
+        max-width:200px;
+        top:30px;
+        left: 30px;
+    }
+
+    ul {
+        padding-left: 230px;
+    }
+
+    li {
+        font-size: 30px;
+    }
+}
+
+@media all and (min-width: 900px) {
+    .logo {
+        width: 200px;
+        margin-left: 5%;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    ul {
+        padding-left: 700px;
+    }
+
+    li {
+        font-size: 25px;
+    }
+
+    .logo {
+        width: 175px;
+    }
 }
