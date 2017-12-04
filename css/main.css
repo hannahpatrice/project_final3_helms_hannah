@@ -26,6 +26,12 @@ body {
     white-space: nowrap; /* 1 */
 }
 
+.container {
+    width: 85%;
+    margin: auto;
+    padding-top: 10%;
+}
+
 /* FONTS */
 @font-face {
     font-family: 'nk57';
@@ -46,7 +52,7 @@ h1 {
     font-family: 'nk57 bold';
     color: #008080;
     text-transform: uppercase;
-    font-size: 70px;
+    font-size: 40px;
     margin-bottom: 2%;
 }
 
@@ -57,8 +63,8 @@ li {
 
 h2 {
     color: #174040;
-    font-size: 45px;
-    line-height: 55px;
+    font-size: 30px;
+    line-height: 35px;
 }
 
 h3,
@@ -66,31 +72,33 @@ h4 {
     font-family: 'nk57 light';
 }
 
-h2 + p {
-    margin-top:2%;
+div + p {
+    margin-top: 8%;
 }
 
 p {
     font-family: Garamond;
     margin-top: 1%;
-    font-size: 36px;
-    line-height: 50px;;
-}
-
-.container {
-    width: 85%;
-    margin: auto;
-    padding-top: 10%;
+    font-size: 20px;
+    line-height: 25px;;
 }
 
 @media (min-width: 800px) {
+	h1 {
+		font-size: 60px;
+	}
+
     h2 {
-        font-size: 33px;
+        font-size: 30px;
     }
 
     p {
-        font-size: 25px;
-        line-height: 40px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    div + p {
+        margin-top: 2%;
     }
 }
 
@@ -103,26 +111,28 @@ header img {
 header {
     background-color: #3a1110;
     margin: auto;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
 }
 
 .logo {
-    width: 40%;
+    width: 30%;
     display: block;
     margin: auto;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
 li {
     display: inline-block;
-    font-size: 50px;
-    padding: 2%;
+    font-size: 25px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top:1%;
 }
 
 ul a {
-    color: rgba(255, 255, 255, 0.65)
+    color: rgba(255, 255, 255, 0.75)
 }
 
 ul a:hover {
@@ -135,8 +145,8 @@ ul a:hover {
         position: absolute;
         z-index: 1000;
         display: inline-block;
-        max-width:200px;
-        top:30px;
+        max-width:170px;
+        top: 30px;
         left: 75px;
     }
 
@@ -145,7 +155,7 @@ ul a:hover {
     }
 
     li {
-        font-size: 30px;
+        font-size: 27px;
         padding-top:1%;
         padding-bottom:1%;
     }
@@ -159,15 +169,19 @@ ul a:hover {
     .logo {
         width: 200px;
     }
+
+	li {
+		font-size: 20px;
+	}
 }
 
 @media all and (min-width: 1300px) {
     ul {
-        padding-left: 55%;
+        padding-left: 50%;
     }
 
     li {
-        font-size: 23px;
+        font-size: 21px;
     }
 
     .logo {
@@ -181,33 +195,53 @@ ul a:hover {
     background-color: #174040;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: center 100px;
     height: 100%;
 }
 
 .homemain {
-    display: flex;
     text-align: center;
     margin: auto;
     width: 90%;
-    height: 85%;
 }
 
 .homemain h1 {
-    align-self: center;
     text-align: center;
     margin: auto;
     color: white;
     text-transform: uppercase;
-    font-size: 175px;
-    -webkit-text-stroke: 10px #3a1110;
+    font-size: 100px;
+    -webkit-text-stroke: 6px #3a1110;
+    padding-top: 50px;
 }
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 700px) {
+    .homemain {
+        display: flex;
+    }
+
     .homemain h1 {
         font-size: 150px;
         -webkit-text-stroke: 7px #3a1110;
+        height: 85%;
+        align-self: center;
+        padding-top: 150px;
+        vertical-align: middle;
+    }
+
+    .home {
+        background-position: center center;
     }
 }
 
+@media all and (min-width: 1000px) {
+
+    .homemain h1 {
+        align-self: center;
+        padding-top: 350px;
+	}
+}
+
 /* ABOUT */
+
+@media all
