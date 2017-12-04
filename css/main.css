@@ -82,6 +82,11 @@ h4 {
     font-family: 'nk57 light';
 }
 
+h3 {
+    color: #3a1110;
+    font-size: 25px;
+}
+
 div + p {
     margin-top: 8%;
 }
@@ -295,6 +300,35 @@ ul a:hover {
 }
 
 /* TEAM */
+.team1 {
+    width: 100%;
+}
+
+.bigger img {
+    width: 100%;
+}
+
+bigger {
+    width: 100%;
+    margin: auto;
+    display: block;
+    margin-top: 7%;
+}
+
+@media all and (min-width: 700px) {
+
+    .team1 {
+        display: flex;
+    }
+
+    .bigger {
+        margin-top: 3%;
+    }
+
+    .bigger + .bigger {
+        margin-left: 4%;
+    }
+}
 
 /* RACES */
 
@@ -314,7 +348,7 @@ aside h1 {
 
 input[type=text] {
     width: 100%;
-    padding: 12px 20px;
+    padding: 10px 20px;
     border: 1px solid rgba(23, 64, 64, 0.5);
     font-family: Garamond;
     font-size: 25px;
