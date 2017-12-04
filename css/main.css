@@ -32,6 +32,14 @@ body {
     padding-top: 10%;
 }
 
+@media all and (min-width: 900px) {
+
+    .container {
+        width: 75%;
+        padding-top: 9%;
+    }
+}
+
 /* FONTS */
 @font-face {
     font-family: 'nk57';
@@ -84,12 +92,15 @@ p {
 }
 
 @media (min-width: 800px) {
-	h1 {
-		font-size: 60px;
-	}
+
+    h1 {
+        font-size: 60px;
+        margin-bottom: 5px;
+    }
 
     h2 {
         font-size: 30px;
+        line-height: 40px;
     }
 
     p {
@@ -128,15 +139,15 @@ li {
     font-size: 25px;
     padding-left: 3%;
     padding-right: 3%;
-    padding-top:1%;
+    padding-top: 1%;
 }
 
 ul a {
-    color: rgba(255, 255, 255, 0.75)
+    color: rgba(255, 255, 255, 0.75);
 }
 
 ul a:hover {
-    color: rgba(255, 255, 255, 1)
+    color: rgba(255, 255, 255, 1);
 }
 
 @media all and (min-width: 700px) {
@@ -145,7 +156,7 @@ ul a:hover {
         position: absolute;
         z-index: 1000;
         display: inline-block;
-        max-width:170px;
+        max-width: 170px;
         top: 30px;
         left: 75px;
     }
@@ -156,8 +167,8 @@ ul a:hover {
 
     li {
         font-size: 27px;
-        padding-top:1%;
-        padding-bottom:1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
     }
 
     a + a {
@@ -166,16 +177,18 @@ ul a:hover {
 }
 
 @media all and (min-width: 900px) {
+
     .logo {
         width: 200px;
     }
 
-	li {
-		font-size: 20px;
-	}
+    li {
+        font-size: 20px;
+    }
 }
 
 @media all and (min-width: 1300px) {
+
     ul {
         padding-left: 50%;
     }
@@ -216,6 +229,7 @@ ul a:hover {
 }
 
 @media all and (min-width: 700px) {
+
     .homemain {
         display: flex;
     }
@@ -239,9 +253,41 @@ ul a:hover {
     .homemain h1 {
         align-self: center;
         padding-top: 350px;
-	}
+    }
 }
 
 /* ABOUT */
+.aboutimg1 {
+    width: 100%;
+    padding-top: 1%;
+}
 
-@media all
+.aboutimg2 {
+    float: right;
+    display: none;
+}
+
+@media all and (min-width: 900px) {
+
+    .aboutsub {
+        width: 65%;
+    }
+
+    .about p {
+        margin-left: 150px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+
+    .aboutimg1 {
+        display: none;
+    }
+
+    .aboutimg2 {
+        display: inline-block;
+        max-width: 350px;
+        padding-left: 5%;
+        padding-bottom: 3%;
+    }
+}
