@@ -8,6 +8,7 @@ body {
 }
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0;
@@ -62,6 +63,7 @@ h1 {
     text-transform: uppercase;
     font-size: 40px;
     margin-bottom: 2%;
+    margin-top: 1%;
 }
 
 h2,
@@ -289,5 +291,70 @@ ul a:hover {
         max-width: 350px;
         padding-left: 5%;
         padding-bottom: 3%;
+    }
+}
+
+/* TEAM */
+
+/* RACES */
+
+/* GALLERY */
+
+/* JOIN */
+
+/* CONTACT */
+.contacthead {
+    width: 100%;
+    padding-top: 1%;
+}
+
+aside h1 {
+    margin-top: 13px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid rgba(23, 64, 64, 0.5);
+    font-family: Garamond;
+    font-size: 25px;
+}
+
+input[type=text] + input[type=text] {
+    margin-top: 10px;
+}
+
+input[type=submit] {
+    background-color: #008080;
+    border: 5px solid #008080;
+    color: white;
+    padding: 10px 0%;
+    font-family: 'nk57 bold';
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 3%;
+    width: 50%;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #ffffff;\
+    color: #008080;
+    transition: 0.7s;
+}
+
+@media all and (min-width:1200px) {
+    aside {
+        float: left;
+        width:57%;
+        box-sizing: border-box;
+        padding-right: 3%;
+        padding-bottom: 3%;
+        border-right: 3px solid rgba(0, 0, 0, 0.3);
+        margin-top: 2%;
+    }
+
+    aside h1 {
+        margin-top: 0px;
     }
 }
