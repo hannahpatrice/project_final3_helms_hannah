@@ -333,6 +333,42 @@ bigger {
 /* RACES */
 
 /* GALLERY */
+.gallery {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.gallery a {
+    padding: 0px 1px;
+    height: auto;
+}
+
+.gallery a img {
+    width: 100%;
+    padding: 0px 1px;
+    height: auto;
+}
+
+.clear1 {
+    margin-top: 2%;
+}
+
+.clear2 {
+    display: none;
+}
+
+@media all and (min-width: 1200px) {
+
+    .clear2 {
+        margin-top: 2%;
+		display: block;
+    }
+
+    .clear1 {
+        display: none;
+    }
+}
 
 /* JOIN */
 
@@ -367,7 +403,7 @@ bigger {
 
     .joinimg {
         width: 40%;
-        max-width:500px;
+        max-width: 500px;
         float: right;
         display: border-box;
     }
