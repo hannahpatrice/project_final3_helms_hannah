@@ -262,6 +262,10 @@ ul a:hover,
         align-self: center;
         padding-top: 350px;
     }
+
+    .homenav {
+        opacity: 0.6;
+    }
 }
 
 /* ABOUT */
