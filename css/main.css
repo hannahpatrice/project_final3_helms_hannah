@@ -337,6 +337,17 @@ bigger {
 
 /* RACES */
 
+
+
+
+
+
+
+
+
+
+
+
 /* GALLERY */
 .gallery {
     display: flex;
@@ -361,6 +372,10 @@ bigger {
 
 .clear2 {
     display: none;
+}
+
+.gallery a:hover {
+    opacity: 0.75;
 }
 
 @media all and (min-width: 1200px) {
@@ -403,19 +418,18 @@ bigger {
     }
 
     .join {
-        display: border-box;
+        display: flex;
     }
 
     .joinimg {
-        width: 40%;
         max-width: 500px;
-        float: right;
         display: border-box;
     }
 
     .joinmain {
         width: 60%;
         display: border-box;
+        margin-right: 5%;
     }
 }
 
