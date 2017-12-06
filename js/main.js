@@ -13,6 +13,15 @@ $(document).ready(function () {
         $(this).css({'opacity': 0.6});
     });
 
+// TEAM HOVER CHANGE
+
+    $('.bigger').mouseenter(function () {
+        $(this).css({'background-color': 'rgba(0, 128, 128, 0.65)', 'color': 'white', 'padding': '1%'});
+    });
+    $('.bigger').mouseleave(function () {
+        $(this).css({'background-color': 'white', 'color': 'black', 'padding': '0%'});
+    });
+
 //HOME PAGE TEXT EFFECTS
 
     $(function () {
