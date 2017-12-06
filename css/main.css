@@ -469,6 +469,10 @@ button:hover {
     border-top: 3px solid rgba(0, 0, 0, 0.3);
 }
 
+p + h2 {
+    padding-top: 5%;
+}
+
 @media all and (min-width: 1200px) {
 
     .contact {
@@ -497,7 +501,7 @@ button:hover {
         border-top: none;
         margin: 2%;
         box-sizing: border-box;
-        float: right;
+        text-align: left;
     }
 }
 
@@ -517,11 +521,11 @@ footer img {
 }
 
 footer a {
-	opacity: 0.75;
+    opacity: 0.75;
 }
 
 footer a:hover {
-	opacity: 1;
+    opacity: 1;
 }
 
 @media all and (min-width: 700px) {
