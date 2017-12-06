@@ -349,10 +349,47 @@ ul a:hover,
 }
 
 /* RACES */
-
 .movie {
-    width:70%;
+    width: 100%;
 }
+
+.overvid {
+    font-family: 'nk57 bold';
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    margin: auto;
+    color: white;
+    text-transform: uppercase;
+    font-size: 85px;
+    -webkit-text-stroke: 4px #3a1110;
+    padding-top: 50px;
+    display: none;
+}
+
+.container1 {
+    width: 85%;
+    margin: auto;
+    padding-top: 4%;
+}
+
+@media all and (min-width: 1200px) {
+
+    .overvid {
+        display: block;
+        position: absolute;
+        top: 650px;
+        left: 10%;
+    }
+
+    .small {
+        display: none;
+    }
+}
+
+
+
+
 
 
 
@@ -409,8 +446,13 @@ ul a:hover,
 
 /* JOIN */
 
-.joinimg {
+.joinimg1 {
     width: 100%;
+    padding-top: 1%;
+}
+
+.joinimg2 {
+    display: none;
 }
 
 @media all and (min-width: 900px) {
@@ -434,19 +476,23 @@ ul a:hover,
         margin-top: 2%;
     }
 
-    .join {
-        display: flex;
-    }
-
-    .joinimg {
-        max-width: 500px;
-        display: border-box;
-    }
-
     .joinmain {
         width: 60%;
         display: border-box;
         margin-right: 5%;
+        float:right;
+    }
+
+    .joinimg1 {
+        display: none;
+    }
+
+    .joinimg2 {
+        display: inline-block;
+        max-width: 350px;
+        padding-left: 5%;
+        padding-bottom: 3%;
+        height: auto;
     }
 }
 
