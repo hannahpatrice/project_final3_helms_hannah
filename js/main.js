@@ -9,4 +9,8 @@ $(document).ready(function () {
         $(this).css({'opacity': 0.6});
     });
 
+    $(function () {
+        $('.lettering').textillate({ in: { effect: 'fadeInRight' } });
+    });
+
 });
