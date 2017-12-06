@@ -533,6 +533,7 @@ p + h2 {
         margin: 2%;
         box-sizing: border-box;
         text-align: left;
+        padding-top: 3%;
     }
 }
 
