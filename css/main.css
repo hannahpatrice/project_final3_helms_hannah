@@ -500,3 +500,39 @@ button:hover {
         float: right;
     }
 }
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    margin-top: 8%;
+}
+
+footer img {
+    width: 20%;
+    margin: 2%;
+}
+
+footer a {
+	opacity: 0.75;
+}
+
+footer a:hover {
+	opacity: 1;
+}
+
+@media all and (min-width: 700px) {
+    footer img {
+        width: 10%;
+    }
+}
+
+@media all and (min-width: 900px) {
+    footer img {
+        margin: 1%;
+        max-width: 50px;
+    }
+}
