@@ -313,7 +313,15 @@ ul a:hover,
     width: 100%;
 }
 
-bigger {
+.team {
+    font-family: 'nk57 bold';
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+
+.bigger {
     width: 100%;
     margin: auto;
     display: block;
@@ -333,9 +341,18 @@ bigger {
     .bigger + .bigger {
         margin-left: 4%;
     }
+
+    .team {
+        font-size: 50px;
+        margin-bottom: 5px;
+    }
 }
 
 /* RACES */
+
+.movie {
+    width:70%;
+}
 
 
 
