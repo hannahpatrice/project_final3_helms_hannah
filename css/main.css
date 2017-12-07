@@ -373,6 +373,33 @@ ul a:hover,
     padding-top: 4%;
 }
 
+.race {
+	list-style-type: circle;
+	padding-left: 10%;
+}
+
+.padme {
+	padding-top: 3%;
+}
+
+.two {
+	font-size: 20px;
+	padding-left: 20px;
+}
+
+@media all and (min-width: 900px) {
+	.flex {
+		display: flex;
+		padding-left: 7%;
+		width: 100%;
+	}
+
+	.flex div {
+		width: 35%;
+		box-sizing: border-box;
+	}
+}
+
 @media all and (min-width: 1200px) {
 
     .overvid {
@@ -386,21 +413,6 @@ ul a:hover,
         display: none;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* GALLERY */
 .gallery {
