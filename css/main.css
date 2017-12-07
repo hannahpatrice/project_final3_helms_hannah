@@ -98,6 +98,10 @@ p {
     line-height: 25px;;
 }
 
+p + p {
+    margin-top: 4%;
+}
+
 @media (min-width: 800px) {
 
     h1 {
@@ -151,7 +155,7 @@ li {
 
 li a {
     color: rgba(255, 255, 255, 0.75);
-	text-decoration: none;
+    text-decoration: none;
 }
 
 ul a:hover,
@@ -375,30 +379,31 @@ ul a:hover,
 }
 
 .race {
-	list-style-type: circle;
-	padding-left: 10%;
+    list-style-type: circle;
+    padding-left: 10%;
 }
 
 .padme {
-	padding-top: 3%;
+    padding-top: 3%;
 }
 
 .two {
-	font-size: 20px;
-	padding-left: 20px;
+    font-size: 20px;
+    padding-left: 20px;
 }
 
 @media all and (min-width: 900px) {
-	.flex {
-		display: flex;
-		padding-left: 7%;
-		width: 100%;
-	}
 
-	.flex div {
-		width: 35%;
-		box-sizing: border-box;
-	}
+    .flex {
+        display: flex;
+        padding-left: 7%;
+        width: 100%;
+    }
+
+    .flex div {
+        width: 35%;
+        box-sizing: border-box;
+    }
 }
 
 @media all and (min-width: 1200px) {
@@ -458,7 +463,6 @@ ul a:hover,
 }
 
 /* JOIN */
-
 .joinimg1 {
     width: 100%;
     padding-top: 1%;
@@ -481,19 +485,23 @@ ul a:hover,
     .join h1 {
         margin-top: 50px;
     }
+
+    .joinp p + p {
+        margin-top: 2%;
+    }
 }
 
 @media all and (min-width: 1200px) {
 
     .join h1 {
-        margin-top: 2%;
+        margin-top: 1%;
     }
 
     .joinmain {
         width: 60%;
         display: border-box;
         margin-right: 5%;
-        float:right;
+        float: right;
     }
 
     .joinimg1 {
@@ -620,12 +628,14 @@ footer a:hover {
 }
 
 @media all and (min-width: 700px) {
+
     footer img {
         width: 10%;
     }
 }
 
 @media all and (min-width: 900px) {
+
     footer img {
         margin: 1%;
         max-width: 50px;
