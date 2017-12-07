@@ -28,3 +28,8 @@ Outliner
 I reviewed the list of deductions for this project and in the syllabus.
 
 ##COMMENTS
+-Custom JS on About Page when you click the image. Wasn't able to get my JS to work to switch it back, if you have any advice on that I edited out the code I had written to do this.
+-Custom jQuery on home page mouseover and off the header/navigation.
+-Custom JS on team page when you hover any of the Owners/Race Horses/Broodmares
+-I made my team page substitute for products and services. I forgot to email in and ask this so I understand if this required a point deduction.
+-THANK YOU for a great semester! Enjoy your time off and away from me bugging you about questions for homework!! Happy Holidays!
